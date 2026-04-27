@@ -1,0 +1,270 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Length 3293 >>
+stream
+BT
+/HelveticaBold 16 Tf 50.0 792.0 Td (Sistema de Controle de Treinamentos Institucionais) Tj
+/Helvetica 6 Tf 50.0 772.0 Td () Tj
+/Helvetica 10 Tf 50.0 758.0 Td (Documentacao do projeto - Praticas Extensionistas III) Tj
+/Helvetica 4 Tf 50.0 744.0 Td () Tj
+/Helvetica 4 Tf 50.0 730.0 Td () Tj
+/HelveticaBold 13 Tf 50.0 716.0 Td (1. Descricao do problema) Tj
+/Helvetica 3 Tf 50.0 699.0 Td () Tj
+/Helvetica 10 Tf 50.0 685.0 Td (Instituicoes que realizam treinamentos internos precisam controlar colaboradores, areas,) Tj
+/Helvetica 10 Tf 50.0 671.0 Td (locais, tipos de treinamento, inscricoes, progresso dos participantes e certificados) Tj
+/Helvetica 10 Tf 50.0 657.0 Td (emitidos. Sem um sistema organizado, torna-se dificil saber quem participou de cada) Tj
+/Helvetica 10 Tf 50.0 643.0 Td (capacitacao, qual foi a carga horaria realizada e quais certificados foram emitidos.) Tj
+/Helvetica 4 Tf 50.0 629.0 Td () Tj
+/Helvetica 10 Tf 50.0 615.0 Td (O sistema proposto organiza essas informacoes e permite acompanhar treinamentos) Tj
+/Helvetica 10 Tf 50.0 601.0 Td (institucionais de forma estruturada.) Tj
+/Helvetica 4 Tf 50.0 587.0 Td () Tj
+/Helvetica 4 Tf 50.0 573.0 Td () Tj
+/HelveticaBold 13 Tf 50.0 559.0 Td (2. Objetivo do sistema) Tj
+/Helvetica 3 Tf 50.0 542.0 Td () Tj
+/Helvetica 10 Tf 50.0 528.0 Td (Modelar um sistema de controle de treinamentos institucionais, contemplando banco de dados) Tj
+/Helvetica 10 Tf 50.0 514.0 Td (relacional e diagramas UML.) Tj
+/Helvetica 4 Tf 50.0 500.0 Td () Tj
+/Helvetica 4 Tf 50.0 486.0 Td () Tj
+/HelveticaBold 13 Tf 50.0 472.0 Td (3. Funcionalidades principais) Tj
+/Helvetica 3 Tf 50.0 455.0 Td () Tj
+/Helvetica 10 Tf 50.0 441.0 Td (- Cadastrar areas e colaboradores.) Tj
+/Helvetica 4 Tf 50.0 427.0 Td () Tj
+/Helvetica 10 Tf 50.0 413.0 Td (- Cadastrar tipos, locais e status de treinamentos.) Tj
+/Helvetica 4 Tf 50.0 399.0 Td () Tj
+/Helvetica 10 Tf 50.0 385.0 Td (- Cadastrar treinamentos internos.) Tj
+/Helvetica 4 Tf 50.0 371.0 Td () Tj
+/Helvetica 10 Tf 50.0 357.0 Td (- Inscrever participantes em treinamentos.) Tj
+/Helvetica 4 Tf 50.0 343.0 Td () Tj
+/Helvetica 10 Tf 50.0 329.0 Td (- Registrar progresso e participacao.) Tj
+/Helvetica 4 Tf 50.0 315.0 Td () Tj
+/Helvetica 10 Tf 50.0 301.0 Td (- Emitir e consultar certificados.) Tj
+/Helvetica 4 Tf 50.0 287.0 Td () Tj
+/Helvetica 10 Tf 50.0 273.0 Td (- Gerar relatorios.) Tj
+/Helvetica 4 Tf 50.0 259.0 Td () Tj
+/Helvetica 4 Tf 50.0 245.0 Td () Tj
+/HelveticaBold 13 Tf 50.0 231.0 Td (4. Atores do sistema) Tj
+/Helvetica 3 Tf 50.0 214.0 Td () Tj
+/Courier 8 Tf 50.0 200.0 Td (Administrador/RH: cadastra colaboradores, treinamentos, locais, inscricoes e certificados.) Tj
+/Courier 8 Tf 50.0 189.0 Td (Colaborador: consulta treinamentos, realiza inscricao e consulta certificados.) Tj
+/Courier 8 Tf 50.0 178.0 Td (Responsavel pelo Treinamento: acompanha participantes e registra presenca/progresso.) Tj
+/Helvetica 4 Tf 50.0 167.0 Td () Tj
+/Helvetica 4 Tf 50.0 153.0 Td () Tj
+/HelveticaBold 13 Tf 50.0 139.0 Td (5. Entidades do banco de dados) Tj
+/Helvetica 3 Tf 50.0 122.0 Td () Tj
+/Courier 8 Tf 50.0 108.0 Td (area: setores da instituicao) Tj
+/Courier 8 Tf 50.0 97.0 Td (pessoa: colaboradores vinculados as areas) Tj
+/Courier 8 Tf 50.0 86.0 Td (tipo_treinamento: classificacao dos treinamentos) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Length 4084 >>
+stream
+BT
+/Courier 8 Tf 50.0 792.0 Td (status_treinamento: situacao do treinamento) Tj
+/Courier 8 Tf 50.0 781.0 Td (local_treinamento: locais dos treinamentos) Tj
+/Courier 8 Tf 50.0 770.0 Td (treinamento: treinamentos oferecidos) Tj
+/Courier 8 Tf 50.0 759.0 Td (status_participacao: situacao da participacao) Tj
+/Courier 8 Tf 50.0 748.0 Td (treinamento_participante: relacionamento entre pessoa e treinamento) Tj
+/Courier 8 Tf 50.0 737.0 Td (status_certificado: situacao do certificado) Tj
+/Courier 8 Tf 50.0 726.0 Td (certificado_treinamento: certificados emitidos) Tj
+/Helvetica 4 Tf 50.0 715.0 Td () Tj
+/Helvetica 4 Tf 50.0 701.0 Td () Tj
+/HelveticaBold 13 Tf 50.0 687.0 Td (6. MER Conceitual) Tj
+/Helvetica 3 Tf 50.0 670.0 Td () Tj
+/Courier 8 Tf 50.0 656.0 Td (AREA 1 ---- N PESSOA) Tj
+/Courier 8 Tf 50.0 645.0 Td (PESSOA 1 ---- N TREINAMENTO \(responsavel\)) Tj
+/Courier 8 Tf 50.0 634.0 Td (TIPO_TREINAMENTO 1 ---- N TREINAMENTO) Tj
+/Courier 8 Tf 50.0 623.0 Td (STATUS_TREINAMENTO 1 ---- N TREINAMENTO) Tj
+/Courier 8 Tf 50.0 612.0 Td (LOCAL_TREINAMENTO 1 ---- N TREINAMENTO) Tj
+/Courier 8 Tf 50.0 601.0 Td (TREINAMENTO 1 ---- N TREINAMENTO_PARTICIPANTE) Tj
+/Courier 8 Tf 50.0 590.0 Td (PESSOA 1 ---- N TREINAMENTO_PARTICIPANTE) Tj
+/Courier 8 Tf 50.0 579.0 Td (STATUS_PARTICIPACAO 1 ---- N TREINAMENTO_PARTICIPANTE) Tj
+/Courier 8 Tf 50.0 568.0 Td (TREINAMENTO 1 ---- N CERTIFICADO_TREINAMENTO) Tj
+/Courier 8 Tf 50.0 557.0 Td (PESSOA 1 ---- N CERTIFICADO_TREINAMENTO) Tj
+/Courier 8 Tf 50.0 546.0 Td (STATUS_CERTIFICADO 1 ---- N CERTIFICADO_TREINAMENTO) Tj
+/Helvetica 4 Tf 50.0 535.0 Td () Tj
+/Helvetica 4 Tf 50.0 521.0 Td () Tj
+/HelveticaBold 13 Tf 50.0 507.0 Td (7. MER Logico) Tj
+/Helvetica 3 Tf 50.0 490.0 Td () Tj
+/Courier 8 Tf 50.0 476.0 Td (area\(id PK, nome\)) Tj
+/Courier 8 Tf 50.0 465.0 Td (pessoa\(id PK, nome, email, cargo, area_id FK, ativo\)) Tj
+/Courier 8 Tf 50.0 454.0 Td (tipo_treinamento\(id PK, nome, descricao, ativo\)) Tj
+/Courier 8 Tf 50.0 443.0 Td (status_treinamento\(id PK, nome, descricao\)) Tj
+/Courier 8 Tf 50.0 432.0 Td (local_treinamento\(id PK, nome, descricao, capacidade, ativo\)) Tj
+/Courier 8 Tf 50.0 421.0 Td (treinamento\(id PK, titulo, descricao, data_inicio, data_fim, carga_horaria_minutos, instrutor, ) Tj
+/Courier 8 Tf 50.0 410.0 Td (status_participacao\(id PK, nome, descricao\)) Tj
+/Courier 8 Tf 50.0 399.0 Td (treinamento_participante\(id PK, pessoa_id FK, treinamento_id FK, status_participacao_id FK, dat) Tj
+/Courier 8 Tf 50.0 388.0 Td (status_certificado\(id PK, nome, descricao\)) Tj
+/Courier 8 Tf 50.0 377.0 Td (certificado_treinamento\(id PK, treinamento_id FK, pessoa_id FK, status_certificado_id FK, data_) Tj
+/Helvetica 4 Tf 50.0 366.0 Td () Tj
+/Helvetica 4 Tf 50.0 352.0 Td () Tj
+/HelveticaBold 13 Tf 50.0 338.0 Td (8. Diagrama de Classes) Tj
+/Helvetica 3 Tf 50.0 321.0 Td () Tj
+/Courier 8 Tf 50.0 307.0 Td (Area) Tj
+/Courier 8 Tf 50.0 296.0 Td (Pessoa) Tj
+/Courier 8 Tf 50.0 285.0 Td (TipoTreinamento) Tj
+/Courier 8 Tf 50.0 274.0 Td (StatusTreinamento) Tj
+/Courier 8 Tf 50.0 263.0 Td (LocalTreinamento) Tj
+/Courier 8 Tf 50.0 252.0 Td (Treinamento) Tj
+/Courier 8 Tf 50.0 241.0 Td (StatusParticipacao) Tj
+/Courier 8 Tf 50.0 230.0 Td (TreinamentoParticipante) Tj
+/Courier 8 Tf 50.0 219.0 Td (StatusCertificado) Tj
+/Courier 8 Tf 50.0 208.0 Td (CertificadoTreinamento) Tj
+/Courier 8 Tf 50.0 197.0 Td () Tj
+/Courier 8 Tf 50.0 186.0 Td (Relacionamentos principais seguem o MER logico: Area possui Pessoas; Treinamento possui Partici) Tj
+/Helvetica 4 Tf 50.0 175.0 Td () Tj
+/Helvetica 4 Tf 50.0 161.0 Td () Tj
+/HelveticaBold 13 Tf 50.0 147.0 Td (9. Diagrama de Caso de Uso Geral) Tj
+/Helvetica 3 Tf 50.0 130.0 Td () Tj
+/Courier 8 Tf 50.0 116.0 Td (Administrador/RH -> Cadastrar colaborador, Cadastrar treinamento, Inscrever participante, Emiti) Tj
+/Courier 8 Tf 50.0 105.0 Td (Colaborador -> Consultar treinamentos disponiveis, Realizar inscricao, Consultar certificado) Tj
+/Courier 8 Tf 50.0 94.0 Td (Responsavel pelo Treinamento -> Consultar participantes, Registrar presenca, Atualizar progress) Tj
+/Helvetica 4 Tf 50.0 83.0 Td () Tj
+ET
+endstream
+endobj
+6 0 obj
+<< /Length 3449 >>
+stream
+BT
+/Helvetica 4 Tf 50.0 792.0 Td () Tj
+/HelveticaBold 13 Tf 50.0 778.0 Td (10. Diagrama de Sequencia - Realizar inscricao) Tj
+/Helvetica 3 Tf 50.0 761.0 Td () Tj
+/Courier 8 Tf 50.0 747.0 Td (1. Colaborador solicita treinamentos disponiveis) Tj
+/Courier 8 Tf 50.0 736.0 Td (2. Sistema consulta treinamentos ativos) Tj
+/Courier 8 Tf 50.0 725.0 Td (3. Banco retorna lista de treinamentos) Tj
+/Courier 8 Tf 50.0 714.0 Td (4. Colaborador seleciona um treinamento) Tj
+/Courier 8 Tf 50.0 703.0 Td (5. Sistema verifica se ja existe inscricao) Tj
+/Courier 8 Tf 50.0 692.0 Td (6. Sistema verifica disponibilidade) Tj
+/Courier 8 Tf 50.0 681.0 Td (7. Sistema registra a inscricao) Tj
+/Courier 8 Tf 50.0 670.0 Td (8. Banco salva a participacao) Tj
+/Courier 8 Tf 50.0 659.0 Td (9. Sistema confirma a inscricao) Tj
+/Helvetica 4 Tf 50.0 648.0 Td () Tj
+/Helvetica 4 Tf 50.0 634.0 Td () Tj
+/HelveticaBold 13 Tf 50.0 620.0 Td (11. Diagrama de Atividades - Emissao de certificado) Tj
+/Helvetica 3 Tf 50.0 603.0 Td () Tj
+/Courier 8 Tf 50.0 589.0 Td (Inicio) Tj
+/Courier 8 Tf 50.0 578.0 Td (Selecionar participante e treinamento) Tj
+/Courier 8 Tf 50.0 567.0 Td (Treinamento finalizado?) Tj
+/Courier 8 Tf 50.0 556.0 Td (  Nao -> Encerrar processo) Tj
+/Courier 8 Tf 50.0 545.0 Td (  Sim -> Verificar progresso) Tj
+/Courier 8 Tf 50.0 534.0 Td (Progresso igual a 100%?) Tj
+/Courier 8 Tf 50.0 523.0 Td (  Nao -> Marcar certificado como pendente) Tj
+/Courier 8 Tf 50.0 512.0 Td (  Sim -> Verificar se certificado ja existe) Tj
+/Courier 8 Tf 50.0 501.0 Td (Certificado ja existe?) Tj
+/Courier 8 Tf 50.0 490.0 Td (  Sim -> Exibir certificado existente) Tj
+/Courier 8 Tf 50.0 479.0 Td (  Nao -> Gerar codigo de validacao, emitir certificado e salvar no banco) Tj
+/Courier 8 Tf 50.0 468.0 Td (Fim) Tj
+/Helvetica 4 Tf 50.0 457.0 Td () Tj
+/Helvetica 4 Tf 50.0 443.0 Td () Tj
+/HelveticaBold 13 Tf 50.0 429.0 Td (12. Repositorio no GitHub) Tj
+/Helvetica 3 Tf 50.0 412.0 Td () Tj
+/Helvetica 10 Tf 50.0 398.0 Td (Link do repositorio: inserir aqui o link do GitHub apos publicar o projeto.) Tj
+/Helvetica 4 Tf 50.0 384.0 Td () Tj
+/Helvetica 10 Tf 50.0 370.0 Td (Sugestao de nome: sistema-controle-treinamentos) Tj
+/Helvetica 4 Tf 50.0 356.0 Td () Tj
+/Helvetica 4 Tf 50.0 342.0 Td () Tj
+/HelveticaBold 13 Tf 50.0 328.0 Td (13. Estrutura sugerida do repositorio) Tj
+/Helvetica 3 Tf 50.0 311.0 Td () Tj
+/Courier 8 Tf 50.0 297.0 Td (sistema-controle-treinamentos/) Tj
+/Courier 8 Tf 50.0 286.0 Td (|-- README.md) Tj
+/Courier 8 Tf 50.0 275.0 Td (|-- documentacao.pdf) Tj
+/Courier 8 Tf 50.0 264.0 Td (|-- banco-de-dados/) Tj
+/Courier 8 Tf 50.0 253.0 Td (|   |-- gestao_treinamentos.sql) Tj
+/Courier 8 Tf 50.0 242.0 Td (|-- diagramas/) Tj
+/Courier 8 Tf 50.0 231.0 Td (    |-- mer-conceitual.svg) Tj
+/Courier 8 Tf 50.0 220.0 Td (    |-- mer-logico.svg) Tj
+/Courier 8 Tf 50.0 209.0 Td (    |-- diagrama-classes.svg) Tj
+/Courier 8 Tf 50.0 198.0 Td (    |-- caso-de-uso-geral.svg) Tj
+/Courier 8 Tf 50.0 187.0 Td (    |-- diagrama-sequencia.svg) Tj
+/Courier 8 Tf 50.0 176.0 Td (    |-- diagrama-atividades.svg) Tj
+/Helvetica 4 Tf 50.0 165.0 Td () Tj
+/Helvetica 4 Tf 50.0 151.0 Td () Tj
+/HelveticaBold 13 Tf 50.0 137.0 Td (14. Script SQL) Tj
+/Helvetica 3 Tf 50.0 120.0 Td () Tj
+/Helvetica 10 Tf 50.0 106.0 Td (O script SQL completo encontra-se no arquivo banco-de-dados/gestao_treinamentos.sql,) Tj
+/Helvetica 10 Tf 50.0 92.0 Td (contendo criacao das tabelas, insercao de dados e consultas SQL.) Tj
+ET
+endstream
+endobj
+7 0 obj
+<< /Length 1394 >>
+stream
+BT
+/Helvetica 4 Tf 50.0 792.0 Td () Tj
+/Helvetica 4 Tf 50.0 778.0 Td () Tj
+/HelveticaBold 13 Tf 50.0 764.0 Td (15. Consultas SQL contempladas) Tj
+/Helvetica 3 Tf 50.0 747.0 Td () Tj
+/Helvetica 10 Tf 50.0 733.0 Td (- Consulta com WHERE.) Tj
+/Helvetica 4 Tf 50.0 719.0 Td () Tj
+/Helvetica 10 Tf 50.0 705.0 Td (- Consulta com JOIN.) Tj
+/Helvetica 4 Tf 50.0 691.0 Td () Tj
+/Helvetica 10 Tf 50.0 677.0 Td (- Consulta com ORDER BY.) Tj
+/Helvetica 4 Tf 50.0 663.0 Td () Tj
+/Helvetica 10 Tf 50.0 649.0 Td (- Consulta com GROUP BY.) Tj
+/Helvetica 4 Tf 50.0 635.0 Td () Tj
+/Helvetica 10 Tf 50.0 621.0 Td (- Consulta com funcao de agregacao.) Tj
+/Helvetica 4 Tf 50.0 607.0 Td () Tj
+/Helvetica 10 Tf 50.0 593.0 Td (- Consulta com condicao composta usando AND/OR.) Tj
+/Helvetica 4 Tf 50.0 579.0 Td () Tj
+/Helvetica 4 Tf 50.0 565.0 Td () Tj
+/HelveticaBold 13 Tf 50.0 551.0 Td (16. Consideracoes finais) Tj
+/Helvetica 3 Tf 50.0 534.0 Td () Tj
+/Helvetica 10 Tf 50.0 520.0 Td (A modelagem proposta atende ao objetivo de representar um problema real relacionado a) Tj
+/Helvetica 10 Tf 50.0 506.0 Td (gestao de treinamentos institucionais. O sistema organiza colaboradores, treinamentos,) Tj
+/Helvetica 10 Tf 50.0 492.0 Td (inscricoes, participacao e certificados, permitindo controle e consulta das informacoes de) Tj
+/Helvetica 10 Tf 50.0 478.0 Td (forma estruturada.) Tj
+/Helvetica 4 Tf 50.0 464.0 Td () Tj
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Pages /Kids [ 9 0 R 10 0 R 11 0 R 12 0 R ] /Count 4 >>
+endobj
+9 0 obj
+<< /Type /Page /Parent 8 0 R /MediaBox [0 0 595 842] /Resources << /Font << /Helvetica 1 0 R /HelveticaBold 2 0 R /Courier 3 0 R >> >> /Contents 4 0 R >>
+endobj
+10 0 obj
+<< /Type /Page /Parent 8 0 R /MediaBox [0 0 595 842] /Resources << /Font << /Helvetica 1 0 R /HelveticaBold 2 0 R /Courier 3 0 R >> >> /Contents 5 0 R >>
+endobj
+11 0 obj
+<< /Type /Page /Parent 8 0 R /MediaBox [0 0 595 842] /Resources << /Font << /Helvetica 1 0 R /HelveticaBold 2 0 R /Courier 3 0 R >> >> /Contents 6 0 R >>
+endobj
+12 0 obj
+<< /Type /Page /Parent 8 0 R /MediaBox [0 0 595 842] /Resources << /Font << /Helvetica 1 0 R /HelveticaBold 2 0 R /Courier 3 0 R >> >> /Contents 7 0 R >>
+endobj
+13 0 obj
+<< /Type /Catalog /Pages 8 0 R >>
+endobj
+xref
+0 14
+0000000000 65535 f 
+0000000015 00000 n 
+0000000085 00000 n 
+0000000160 00000 n 
+0000000228 00000 n 
+0000003572 00000 n 
+0000007707 00000 n 
+0000011207 00000 n 
+0000012652 00000 n 
+0000012732 00000 n 
+0000012901 00000 n 
+0000013071 00000 n 
+0000013241 00000 n 
+0000013411 00000 n 
+trailer
+<< /Size 14 /Root 13 0 R >>
+startxref
+13461
+%%EOF
